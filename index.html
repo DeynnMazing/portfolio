@@ -3,68 +3,169 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Paulyy</title>
- 
-<!--Bootstrap-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
- crossorigin="anonymous">
- 
+    <title>Paul Anthony Guilleno</title>
 </head>
-<body>
-    <!--HERO SECTION-->
-    <section id="hero">
-        <nav class="navbar bg-black">
-            <div class="container">
-              <a class="navbar-brand" href="#">
-                <img src="./img/pg logo.png " alt="" width="90" height="70">
-        <nav class="navbar navbar-expand-lg bg-black">
-            <div class="container-fluid">
-              <a class="navbar-brand text-white" href="#">Navbar</a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Portfolio</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white" href="#">Services</a>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">About</a>
-                </ul>
-            </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-      </li>
-        </a>
-    </div>
-    <div>
+<style>
+    body {
+        margin: 0;
+    }
+    nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        
+    }
+    li {
+        display: inline-block;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+    }
+    #Home {
+        height: 100%;
+        padding: 10rem 10rem 15rem 0;
+        background-color: rgb(31, 31, 31);
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
 
-          </nav>
-          <nav class="navbar bg-secondary">
-               <h1>Passionate</h1>
-               <h2>UI/UX Designer.</h2>
-               <br>
-               <br>
-               <h3>Elevating User Experiences with Creative UI/UX Design.</h3>
-               <p>I’m a freelance UX designer based in Pampanga, Philippines. 
-                I’ve worked with startups and established companies. I’m passionate about my work. </p>
-                <img src="./img/Mypicture.svg " alt="" width="500" height="500">
- </div>
+    }
+    #Home h1{
+        color: aqua;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    #Home button{
+        color: aqua;
+        width:  110px; height: 40px;
+    }
+
+    #imglogo {
+        color: black;
+    }
+    #About {
+    height: 1000px;
+    background-color: rgb(31, 31, 31);
+        color: white;;
+    border: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+    #certificates {
+    height: 100vh;
+    background-color: rgb(31, 31, 31);
+    border: solid 1px black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    color: white;
+    margin: 0;
+}
+</style>
+<body>
+    <header>
+        <nav>
+            <img src="./img/pg logo.png" alt="" width="100px" height="100px">
+            <ul>
+                <li>Home</li>
+                <li>Portfolio</li>
+                <li>Services</li>
+                <li>About</li>
+            </ul>
+        </nav>
+    </header>
+    <section id="Home">
+        <div>
+            <div style="display: grid; grid-template-columns: 600px 600px; align-items: center;">
+                <div>
+                    <img style="height:500px;" src="./img/Mypicture.svg" alt="">
+                    <p style="width: 110px; height: 40px;"> Paul Guilleno </p>
+                </div>
+                <div>
+                    <h1 style="font-size: 3rem; text-align: center; margin-bottom: 4rem;">
+                        Passionate
+                        <br>
+                        UI/UX Designer
+                    </h1>
+                    <p>
+                        Elevating User Experiences with Creative UI/UX Design.
+                      </p>
+                    <h2>
+                      I’m a freelance UX designer based in Pampanga, Philippines. I’ve worked with startups and established
+                      companies. I’m passionate about my work. 
+                    </h2>
+                    <br>
+                    </button>
+                    <button style=" width:110px; height: 40px;">
+                        Hire Me
+                    </button>
+                </div>
+            </div>
+        </div>
     </section>
+    
+    <section id="About" style="height: 100%; display: grid; align-items: center; justify-content: center;">
+      <h1 style="text-align: center;">PORTFOLIO</h1>
+      <h1 style="text-align: center;">My work</h1>
+      <div style="display: grid;">
+          <div style="display: grid; gap: 5rem; grid-template-columns: 400px 400px; margin-bottom: 4rem;">
+              <div>
+                  <h1 style="text-align: center;">Portfolio #1</h1>
+                  <h2>Take a look some of my completed web development projects. A collection of Web Applications  and Responsive  Websites</h2>
+              </div>
+              <div>
+                  <img style="object-fit: cover; height: 200px;" src="./img/mywork.png" alt="">
+              </div>
+          </div>
+          <div style="display: grid; gap: 5rem; grid-template-columns:400px 400px;">
+                <div>
+                    <img style="object-fit: cover; height: 200px;" src="./img/myworkj.png" alt="">
+                </div>
+                <div>
+                  <h1 style="text-align: center;">Portfolio #2</h1>
+                  <h2>Take a look some of my completed web development projects. A collection of Web Applications  and Responsive  Websites</h2>
+              </div>
+          </div>
+          <br>
+          <br>
+          <br>
+          <br>
+      </div>
+      <div style="display: grid; gap: 5rem; grid-template-columns:400px 400px;">
+        <div>
+            <h1 style="text-align: center;">Portfolio #3</h1>
+            <h2>Take a look some of my completed web development projects. A collection of Web Applications  and Responsive  Websites.</h2>
+        </div>
+        <div>
+            <img style="object-fit: cover; height: 200px;" src="./img/work.png" alt="">
+        </div>
+  </section>
  
-<!--bootstrap js cdn-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
- integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-crossorigin="anonymous"></script>
- 
- 
+  <section id="certificates">
+    <h1>My Certificates</h1>
+    <div style="display: flex; align-items: center;
+        justify-content: center; gap: 1rem;">
+        <div>
+            <img height="300px" src="./img/datacert.png" alt="">
+            <div>
+                <img height="200px" src="./img/data.png" alt="">
+            </div>
+        </div>
+        <br>
+        <div>
+            <img height="250px" src="./img/digcert.png" alt="">
+            <div>
+                <img height="200px" src="./img/dig.png" alt="">
+            </div>
+        </div>
+        <br>
+        <div>
+            <img height="300px" src="./img/profcert.png" alt="">
+            <div>
+                <img height="200px" src="./img/prof.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
 </body>
 </html>
