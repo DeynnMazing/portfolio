@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -26,6 +27,7 @@
         background-color: rgb(31, 31, 31);
         color: white;
         font-family: Arial, Helvetica, sans-serif;
+        shape-image-threshold: inherit;
 
     }
     #Home h1{
@@ -33,7 +35,7 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     #Home button{
-        color: aqua;
+        color: black;
         width:  110px; height: 40px;
     }
 
@@ -61,11 +63,22 @@
     color: white;
     margin: 0;
 }
+
+#footer {
+    height: 100%;
+    padding: 5rem 1rem 0 1rem;
+    border: solid 1px white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
 </style>
 <body>
     <header>
         <nav>
-            <img src="./img/pg logo.png" alt="" width="100px" height="100px">
+            <img src="./img/pg.png" alt="" width="100px" height="100px">
             <ul>
                 <li>Home</li>
                 <li>Portfolio</li>
@@ -78,8 +91,8 @@
         <div>
             <div style="display: grid; grid-template-columns: 600px 600px; align-items: center;">
                 <div>
-                    <img style="height:500px;" src="./img/Mypicture.svg" alt="">
-                    <p style="width: 110px; height: 40px;"> Paul Guilleno </p>
+                    <img style="height:600px;" src="./img/mypiccc.png">
+                    <p style="text-align: center;"width: 100px; height: 60px;"> Paul Anthony Guilleno </p>
                 </div>
                 <div>
                     <h1 style="font-size: 3rem; text-align: center; margin-bottom: 4rem;">
@@ -119,7 +132,7 @@
           </div>
           <div style="display: grid; gap: 5rem; grid-template-columns:400px 400px;">
                 <div>
-                    <img style="object-fit: cover; height: 200px;" src="./img/myworkj.png" alt="">
+                    <img style="object-fit: cover; height: 200px;" src="./img/mywork2.png" alt="">
                 </div>
                 <div>
                   <h1 style="text-align: center;">Portfolio #2</h1>
@@ -137,7 +150,7 @@
             <h2>Take a look some of my completed web development projects. A collection of Web Applications  and Responsive  Websites.</h2>
         </div>
         <div>
-            <img style="object-fit: cover; height: 200px;" src="./img/work.png" alt="">
+            <img style="object-fit: cover; height: 200px;" src="./img/worwork.png" alt="">
         </div>
   </section>
  
@@ -146,26 +159,44 @@
     <div style="display: flex; align-items: center;
         justify-content: center; gap: 1rem;">
         <div>
-            <img height="300px" src="./img/datacert.png" alt="">
+            <img height="300px" src="./img/proj..png" alt="">
             <div>
-                <img height="200px" src="./img/data.png" alt="">
+                <img height="200px" src="./img/cert.png" alt="">
             </div>
         </div>
         <br>
         <div>
-            <img height="250px" src="./img/digcert.png" alt="">
+            <img height="250px" src="./img/datacert.png" alt="">
             <div>
-                <img height="200px" src="./img/dig.png" alt="">
+                <img height="200px" src="./img/cert2.png" alt="">
             </div>
         </div>
         <br>
         <div>
-            <img height="300px" src="./img/profcert.png" alt="">
+            <img height="300px" src="./img/digcert.png" alt="">
             <div>
-                <img height="200px" src="./img/prof.png" alt="">
+                <img height="200px" src="./img/certdig.png" alt="">
             </div>
         </div>
     </div>
+</section>
+<section id="footer">
+    <footer >
+
+        <div>
+            <a href="https://www.facebook.com/paul.guillenu" role="button" target="_blank"><img style="height: 40px;" class="icon" src="./img/OIP.jpg" alt=""></a>
+            <a href="" role="button" target="_blank"><img style="height: 40px;" class="icon" src="./img/ig.jpg" alt=""></a>
+            <a href="https://github.com/DeynnMazing" role="button" target="_blank"><img style="height: 40px;" class="icon" src="./img/github.jpg" alt=""></a>
+        </div>
+
+        <div>
+            <p style="text-align: center;">
+                Copyright © 2023 Paul Anthony Guilleno. All rights reserved
+            </p>
+        </div>
+        
+    </footer>
+</section>
 </section>
 </body>
 </html>
